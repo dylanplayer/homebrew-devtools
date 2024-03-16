@@ -15,6 +15,10 @@ class Quick < Formula
 
     bin.install "bin/quick"
 
-    (bin/"quick").write_env_script(libexec/"bin/quick", GEM_HOME: ENV["GEM_HOME"])
+    bin.env_script_all_files(libexec/"bin", GEM_HOME: ENV["GEM_HOME"])
+  end
+
+  test do
+    system "#{bin}/quick", "--help"
   end
 end
