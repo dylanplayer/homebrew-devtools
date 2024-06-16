@@ -1,8 +1,8 @@
 class Quick < Formula
   desc "A CLI that allows you to easily manage cloned repositories"
   homepage "https://github.com/dylanplayer/quick"
-  url "https://github.com/dylanplayer/quick/archive/refs/tags/v1.0.5.tar.gz"
-  sha256 "5de05d2c69338ebfa00160ae520d351b2cf7b9fe862efc36d1cb61d80c113479"
+  url "https://github.com/dylanplayer/quick/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "095e007c1d9997761f556462860de377b4128e1345c36c1c9422726626f4bb9e"
   license "MIT"
 
   depends_on "ruby"
